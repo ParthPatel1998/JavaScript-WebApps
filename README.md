@@ -1,2 +1,2 @@
 # JavaScript-WebApps
-Trivial Web Apps made to demonstrate simple JS concepts
+Basic Web Apps made to demonstrate simple JS concepts
