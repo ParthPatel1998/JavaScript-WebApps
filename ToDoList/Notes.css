@@ -1,0 +1,43 @@
+body {
+    font-family: "helvetica neue";
+    color: #666;
+    padding: 2% 10%;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
+
+p input {
+    display: none;
+}
+
+p.edit span {
+    display: none;
+}
+
+p.edit input {
+    display: initial;
+}
+
+
+#btn {
+	margin-bottom: 8px;
+	padding: 7px 60px;
+	font-size: 20px;
+
+}
+
+.inline {
+	display: inline-block;
+
+}
+
