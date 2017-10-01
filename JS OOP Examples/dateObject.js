@@ -1,0 +1,10 @@
+var date = new Date(); 
+date.getDate();          // Get the day as a number (1-31)
+date.getDay();           // Get the weekday as a number (0-6)
+date.getFullYear();      // Get the four digit year (yyyy)
+date.getHours();         // Get the hour (0-23)
+date.getMilliseconds();  // Get the milliseconds (0-999)
+date.getMinutes();       // Get the minutes (0-59)
+date.getMonth();         // Get the month (0-11)
+date.getSeconds();       // Get the seconds (0-59)
+date.getTime();          // Get the time (milliseconds since January 1, 1970)
