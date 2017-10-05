@@ -11,15 +11,15 @@ for (i = 0; i < items.length; i++){
 
 
 function editItems() {
-this.className = "edit";
-var input = this.querySelector("input");
-input.focus();
-input.setSelectionRange(0, input.value.length);
+	this.className = "edit";
+	var input = this.querySelector("input");
+	input.focus();
+	input.setSelectionRange(0, input.value.length);
 }
 
 function updateItem() {
-this.previousElementSibling.innerHTML = this.value;
-this.parentNode.className = "";
+	this.previousElementSibling.innerHTML = this.value;
+	this.parentNode.className = "";
 }
 
 function updateItemkeypress() {
@@ -39,7 +39,7 @@ input.addEventListener("keypress", updateItemkeypress);
 
 
 
-//jQuery
+//jQuery Way
 var counter = 4
 var counter2 = 4
 $(document).ready(function(){
